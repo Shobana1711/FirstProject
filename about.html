@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>All Products-K S Nursery</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&family=Solitreo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+            <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.icon.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="img/cart logo.png" width="30px" height="30px"></a>
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+<!--------about-page--------------->
+<div class="section">
+    <div class="container">
+        <div class="title">
+            <h1>About Us</h1>
+        </div>
+        <div class="content">
+            <div class="article">
+                <h3>We have a team of efficient professionals who work dedicatedly to attain organizational goal. 
+                    Our professionals are highly trained and experienced in designing and decorating the gardens and landscapes.</h3><br> 
+                    <h3>Well-versed with the basics of Horticulture, our professionals provide quality services to our customers.
+                        our staff are here to offer you unmatched expertise, and unbeatable service.</h3><br>  
+                    <h3>Apart from this, our team of skilled members easily adapts the latest changes 
+                    takes that takes place in the market in terms of techniques used in the cultivation process.</h3>
+                    <a href="" class="btn">Read More &#8594;</a>
+                    
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="img/Papaya-17.jpg" img="right">
+        </div>
+        <div class="social">
+            <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</div>
+
+
+          <!-----------------footer----------------------->
+          <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="img/gps.jpg">
+                            <img src="img/gps - Copy.jpg">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="img/logo.icon.png">
+                        <p>Our Purpose Is to Sustainably Make the Pleasure and Banefits of plants Accessible to the Many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                 <p class="copyright">Copyright @ 2023-K S Nursery</p>
+            </div>
+          </div>
+<!------------js for toggle menu------------>
+<script>
+    var MenuItems=document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+            {
+              MenuItems.style.maxHeight = "200px";
+            }
+        else
+            {
+              MenuItems.style.maxHeight=="0px";
+            }
+    }
+</script>
+
+</body>
+</html>
